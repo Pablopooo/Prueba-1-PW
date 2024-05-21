@@ -1,0 +1,229 @@
+/* Estilos Generales */
+body {
+  background-color: #fafafa;
+  font-family: Arial, sans-serif; /* Especifica una familia de fuentes */
+}
+
+/* Estilos del Carrusel */
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Estilos de la Sección de Introducción */
+#intro {
+  background-color: #faf5f5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+#intro h1 {
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
+#intro p {
+  margin-bottom: 0;
+  color: #333;
+}
+
+/* Estilos de la Sección de Obras de Arte */
+.icono {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.icono img {
+  border-radius: 50%;
+  border: 3px solid #6c757d;
+  margin-right: 20px;
+}
+
+.icono h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #141cf7;
+}
+
+.icono p {
+  margin-bottom: 0;
+  color: #333;
+}
+
+/* Estilos de la Barra de Redes Sociales */
+.barra-redes-sociales {
+  height: 50px;
+  background-color: #0D6EFD;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra-redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.barra-redes-sociales a.facebook:before {
+  content: "\f0f3";
+}
+
+.barra-redes-sociales a.twitter:before {
+  content: "\f099";
+}
+
+.barra-redes-sociales a.instagram:before {
+  content: "\f035";
+}
+
+/* Título de Noticias Destacadas */
+.featured-news-title {
+  text-align: center; /* Centra el título horizontalmente */
+  font-family: 'Trajan Pro', sans-serif; /* Usa una fuente serif como Trajan Pro */
+  font-weight: 900; /* Aumenta el peso de la fuente para hacerla más audaz */
+  font-size: 3rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  letter-spacing: 0.2rem; /* Agrega un poco de espaciado entre letras */
+  margin-bottom: 30px; /* Aumenta el margen debajo del título */
+  color: #222; /* Establece un color de texto más oscuro */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra de texto sutil */
+}
+
+/* Estilos del Carrusel */
+.carousel-caption {
+  position: absolute; /* Posiciona la leyenda absolutamente */
+  bottom: 20px; /* Establece la posición inferior */
+  left: 20px; /* Establece la posición izquierda */
+  padding: 15px; /* Agrega un poco de relleno alrededor del texto */
+  background-color: rgba(15, 17, 32, 0.5); /* Fondo semi-transparente */
+  color: white; /* Establece el color del texto en blanco */
+  font-family: 'Trajan Pro', sans-serif; /* Usa una fuente épica como Trajan Pro */
+  font-weight: 900; /* Aumenta el peso de la fuente para hacerla más audaz */
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra de texto sutil */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Oculta la leyenda en pantallas más pequeñas (media query) */
+@media (max-width: 768px) {
+  .carousel-caption {
+    display: none; /* Oculta en pantallas pequeñas */
+  }
+}
+
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif; /* Especifica una familia de fuentes base */
+}
+
+/* Título Centrado */
+.featured-news-title {
+  font-size: 2.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  font-weight: bold;
+  margin-bottom: 20px; /* Opcional: Ajusta el margen inferior si es necesario */
+  color: #333; /* Establece el color del texto */
+}
+
+/* Estilos de la Tarjeta de Imagen */
+.icono.wrap {
+  background-color: #f5f5f5; /* Color de fondo claro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 20px; /* Agrega relleno alrededor del contenido */
+}
+
+.icono.wrap img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra de caída sutil */
+  border: 5px solid lightblue; /* Agrega un borde azul claro */
+  border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.icono.wrap h3,
+.icono.wrap p {
+  margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+}
+
+.category-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.category-container img {
+    width: 100%;
+    height: auto;
+}
+
+.category-title {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.category-description {
+    margin-top: 10px;
+}
+
+.my-custom-color {
+  color: #333; /* Cambia este valor por el color deseado */
+}
+
+/* Estilos CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.featured-news-title {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.row-cols-1.row-cols-md-3 .col {
+  margin-bottom: 30px;
+}
+
+.category-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.category-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.category-description {
+  color: #666;
+  font-size: 1rem;
+}
+
+.estilo-plomo {
+  font-size: small; /* Hace que el texto sea más pequeño */
+  color: #808080; /* Color gris */
+}
